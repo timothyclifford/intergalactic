@@ -1,0 +1,12 @@
+{
+    "regex": {
+        "definitions": {
+            "unit": "^([a-z\\s]+) is ([IVXLCDM])$",
+            "resource": "^([a-z\\s]+) ([A-Z][a-z]+) is (\\d+) Credits$"
+        },
+        "questions": {
+            "unit": "^how much is ([a-z\\s]+)\\?$",
+            "resource": "^how many Credits is ([a-z\\s]+) ([A-Z][a-z]+) \\?$"
+        }
+    }
+}
